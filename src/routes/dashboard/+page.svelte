@@ -1,5 +1,5 @@
 <script lang="ts">
-	import AppSidebar from "$lib/components/app-sidebar.svelte";
+	import AppSidebar from "$lib/components/app-sidebar-acme.svelte";
 	import ChartAreaInteractive from "$lib/components/chart-area-interactive.svelte";
 	import DataTable from "$lib/components/data-table.svelte";
 	import SectionCards from "$lib/components/section-cards.svelte";
