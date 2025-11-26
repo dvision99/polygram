@@ -1,5 +1,8 @@
 [build]
-  command = "bun run build"
+  # Option 1: Use npm (recommended for Netlify - more reliable)
+  command = "npm ci && npm run build"
+  # Option 2: Use bun (uncomment if you prefer bun, comment out the line above)
+  # command = "curl -fsSL https://bun.sh/install | bash && export PATH=\"$HOME/.bun/bin:$PATH\" && bun install && bun run build"
   publish = ".netlify"
 
 [build.environment]
